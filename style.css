@@ -293,3 +293,75 @@ nav a {
 .footer-links a:hover {
   color: #ffffff;
 }
+
+/* Event News Section */
+
+.event-news {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  color: #fff;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.news-header h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #111;
+}
+.view-all {
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid #38bdf8;
+  padding: 8px 16px;
+  border-radius: 50px;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.news-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+.news-card:hover {
+  background: #263548;
+}
+
+.badge {
+  display: inline-block;
+  background: #2457ff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.date {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.news-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.news-card p {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.read-more {
+  color: #2457ff;
+  text-decoration: none;
+  font-weight: 600;
+}
