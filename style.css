@@ -15,6 +15,8 @@ body {
   margin: 0 auto;
 }
 
+/* Header Section */
+
 header {
   background: #fff;
 }
@@ -48,6 +50,8 @@ nav a {
   border-radius: 6px;
   text-decoration: none;
 }
+
+/* Hero Section */
 
 .hero {
   height: 786px;
@@ -92,6 +96,8 @@ nav a {
   margin-top: 260px;
 }
 
+/* Speakers Section */
+
 .speakers {
   padding: 80px 0px;
 }
@@ -133,4 +139,124 @@ nav a {
   color: #2563eb;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+/* Pricing Section */
+
+.pricing {
+  padding: 100px 0;
+  background: #f5f5f5;
+}
+
+.pricing h2 {
+  font-size: 64px;
+  color: #10223b;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.pricing p {
+  color: #777;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.pricing-flex {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.price-card {
+  background: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 14px;
+  padding: 35px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured {
+  background: #071a38;
+  color: white;
+}
+
+.plan {
+  font-size: 14px;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.featured .plan {
+  color: #7db2ff;
+}
+
+.price-card h3 {
+  font-size: 64px;
+  margin-bottom: 5px;
+}
+
+.perperson {
+  color: #8a8a8a;
+  margin-bottom: 25px;
+}
+
+.featured .perperson {
+  color: #b8c4d9;
+}
+
+.price-card hr {
+  height: 1px;
+  background: #e5e5e5;
+  margin-bottom: 25px;
+}
+
+.featured hr {
+  background: #f9f9f9;
+}
+
+.price-card ul {
+  margin-bottom: 30px;
+  padding-left: 13px;
+}
+
+.price-card li {
+  margin-bottom: 16px;
+  color: #444;
+  padding-left: 5px;
+}
+
+.price-card li::marker {
+  font-size: 10px;
+  color: #2457ff;
+}
+
+.featured li {
+  color: #e3e8f3;
+}
+
+.price-btn {
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.outline-btn {
+  border: 1px solid #2457ff;
+  color: #2457ff;
+}
+
+.solid-btn {
+  background: #2457ff;
+  color: white;
+}
+
+.dark-outline-btn {
+  border: 1px solid #10223b;
+  color: #10223b;
 }
