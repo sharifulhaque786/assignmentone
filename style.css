@@ -91,3 +91,46 @@ nav a {
   font-weight: 600;
   margin-top: 260px;
 }
+
+.speakers {
+  padding: 80px 0px;
+}
+
+.speakers h2 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card h3 {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #575757;
+  padding: 15px;
+}
+
+.card .speaker-topics {
+  color: #2563eb;
+  font-size: 14px;
+  text-transform: uppercase;
+}
