@@ -260,3 +260,36 @@ nav a {
   border: 1px solid #10223b;
   color: #10223b;
 }
+
+/* Footer Section */
+
+.footer {
+  background: #071a38;
+  padding: 60px 0;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-items p {
+  color: #8c95a8;
+  font-size: 18px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links a {
+  color: #8c95a8;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
